@@ -1,5 +1,5 @@
 {% set name = "smqtk-image-io" %}
-{% set version = "0.17.1" %}
+{% set version = "0.18.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/smqtk_image_io-{{ version }}.tar.gz
-  sha256: 106e21a8e07e55db09b984b227027d156a28f3559c467322893253a50c1317c4
+  sha256: 7c8a17e6c7a3fd4ccf1c29f15f42d8b05262857bc614e6b4266e89881e093b0d
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
