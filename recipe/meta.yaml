@@ -21,10 +21,10 @@ requirements:
     - poetry-core
   run:
     - python >={{ python_min }},<4.0
-    - pillow >=8.2.0
-    - numpy >=1.21
-    - smqtk-core >=0.20
-    - smqtk-dataprovider >=0.19.0
+    - pillow >=12.3.0
+    - numpy >=1.23.5
+    - smqtk-core >=0.22.0
+    - smqtk-dataprovider >=0.20.0
 
 test:
   imports:
